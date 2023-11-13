@@ -4,6 +4,7 @@ import List from '../components/List';
 import style from './App.module.scss';
 import Stopwatch from '../components/Stopwatch';
 import { ITask } from '../types/task';
+import Footer from '../components/Footer';
 
 function App() {
   const [tasks, setTasks] = useState<ITask[]>([]);
@@ -44,6 +45,7 @@ function App() {
        selected={selected} 
        finishTask={finishTask}
       />
+      <Footer />
     </div>
   );
 }

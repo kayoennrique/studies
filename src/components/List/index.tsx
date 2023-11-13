@@ -20,7 +20,7 @@ function List({ tasks, selectTask }: Props) {
                         {...item}
                     />
                 ))}
-            </ul>
+            </ul>            
         </aside>
     )
 }

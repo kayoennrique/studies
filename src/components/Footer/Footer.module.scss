@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000009F;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 97%;
+    height: 80px; 
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        width: 149%;
+    }
+}
